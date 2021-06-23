@@ -16,6 +16,10 @@ This GitHub page contains documentation regarding the plugin. If you are interes
 
 ------------
 
+**REPORT BUGS and SUGGEST IDEAS** 
+
+I am constantly looking to improve Demeter. Whether you found a bug or have a suggestion, I want to hear about it. Head over to the [Issues](https://github.com/landoncrabtree/demeter-public/issues "Issues") page and click "New Issue." Use this page even if it's a suggestion-- it helps me keep everything in place and easy to manage. Please provide detailed descriptions and if you are reporting a bug, steps to reproduce. 
+
 **CONTACT**
 
 If you need to contact me regarding Demeter, you may do so through email (me@landon.pw) or Discord: Landon#1718.
