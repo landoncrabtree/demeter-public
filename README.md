@@ -1,5 +1,6 @@
 ![](https://i.imgur.com/Nicyqra.png)
 ![](https://img.shields.io/github/issues/landoncrabtree/demeter-public)
+![](https://img.shields.io/discord/857330372719280138)
 
 **Demeter Harvester Hoes**: Demeter is an all-new and feature packed Harvester Hoe plugin designed to bring an all new and revitalized farming experience to your players. Whether your server is Factions, Skyblock, or Survival, Demeter is a must have for any server.
 
