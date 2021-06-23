@@ -1,0 +1,132 @@
+verbose: true  # Should Console output when users buy/sell via Demeter?
+
+harvesterhoe:
+  item:
+    type: "DIAMOND_HOE"  # The material type for the HarvesterHoe.
+    # If you are using 1.8.x: https://helpch.at/docs/1.8/index.html?org/bukkit/Material.html
+    # If you are using 1.9.x: https://helpch.at/docs/1.9/index.html?org/bukkit/Material.html
+    # If you are using 1.10.x: https://helpch.at/docs/1.10/index.html?org/bukkit/Material.html
+    # If you are using 1.11.x: https://helpch.at/docs/1.11/index.html?org/bukkit/Material.html
+    # If you are using 1.12.x: https://helpch.at/docs/1.12/index.html?org/bukkit/Material.html
+    name: "&e&l&n&lHarvester Hoe"  # The name for the HarvesterHoe.
+    lore:  # The lore for the HarvesterHoe. (multi-line support). {uses} displays the amount of uses.
+      - ""
+      - "&7Break crops to &6&oautomatically&r &7harvest."
+      - "&7&o(( Change modes by right-clicking the air. ))"
+      - ""
+      - "&e&nPurchased at &6&nstore.hypixel.net&e&n."
+      - ""
+      - "&f&lUSES: &d{uses}"
+    collect_suffix: "&8[&2&lCOLLECT&8]"  # The item name when in Collect Mode.
+    plant_suffix: "&8[&d&lPLANT&8]"  # The item name when in Plant Mode.
+    sell_suffix: "&8[&6&lAUTO-SELL&8]"  # The item name when in Sell Mode.
+
+enchant:
+  title: "&6&lHarvester Hoe Enchanter"  # The Enchant GUI name.
+  filler:
+    name: "&r"  # The name for the stained glass filler.
+    color: 15  # The color for the stained glass filler.
+  input:
+    name: "&cPut your Harvester Hoe here..."  # The name for the HarvesterHoe slot.
+    color: 14  # The color for the HarvesterHoe slot
+  output:
+    name: "&5&l&k???????"  # The name for the enchant slots.
+    color: 5  # The color for the enchant slots.
+  cost:
+    tier1:
+      amount: 15  # The cost for Tier 1 enchants.
+      type: "xp"  # The type of cost. Valid options: "xp" or "money"
+      name: "&a&lTIER 1 ENCHANT &215XP"  # The name for the Tier 1 Enchant
+    tier2:
+      amount: 10000.00  # The cost for Tier 2 enchants.
+      type: "money"  # The type of cost. Valid options: "xp" or "money"
+      name: "&d&lTIER 2 ENCHANT &5$10,000"  # The name for the Tier 2 Enchant
+    tier3:
+      amount: 45  # The cost for Tier 3 enchants.
+      type: "xp" # The type of cost. Valid options: "xp" or "money"
+      name: "&c&lTIER 3 ENCHANT &445XP"  # The name for the Tier 3 Enchant
+  lore:
+    # Do not modify the names. You can change the color code(s), but keep the names the same.
+    # It will break the enchant if they are changed. This might be changed in the future.
+    fortune: "&9Fortune"  # The lore for the Fortune enchant.
+    greenthumb: "&aGreenThumb"  # The lore for the Green Thumb enchant.
+    preservation: "&dPreservation"  # The lore for the Preservation enchant.
+    experience: "&bExperience"  # The lore for the Experience enchant.
+
+messages:
+  nopermission: "&cNo permission to use this command."
+  harvesterhoe:
+    collect:
+      wheat: "&e&nYou collected &6&l&n%amount%&e&n wheat."
+      potato: "&e&nYou collected &6&l&n%amount%&e&n potato(s)."
+      carrot: "&e&nYou collected &6&l&n%amount%&e&n carrot(s)."
+      netherwart: "&e&nYou collected &6&l&n%amount%&e&n nether wart."
+      sugarcane: "&e&nYou collected &6&l&n%amount%&e&n sugar cane."
+      fortune: "&aYou received an additional %amount% because of &9Fortune&a."
+      greenthumb: "&aThe plant was automatically replanted because of &aGreenThumb&a."
+      experience: "&b&lEXPERIENCE ENCHANT &8: &a&l+%xp% EXP"
+      preservation: "&aYour HarvesterHoe took no damage because of &dPreservation&a."
+    sell:
+      wheat: "&e&nYou sold &6&l&n%amount%&e&n wheat. &8&l[&a&l+$%price%&8&l]"
+      potato: "&e&nYou sold &6&l&n%amount%&e&n potato(s). &8&l[&a&l+$%price%&8&l]"
+      carrot: "&e&nYou sold &6&l&n%amount%&e&n carrot(s). &8&l[&a&l+$%price%&8&l]"
+      netherwart: "&e&nYou sold &6&l&n%amount%&e&n nether wart. &8&l[&a&l+$%price%&8&l]"
+      sugarcane: "&e&nYou sold &6&l&n%amount%&e&n sugar cane. &8&l[&a&l+$%price%&8&l]"
+      fortune: "&aYou sold an additional %amount% because of &9Fortune&a."
+      greenthumb: "&aThe plant was automatically replanted because of &aGreenThumb&a."
+      experience: "&b&lEXPERIENCE ENCHANT &8: &a&l+%xp% EXP"
+      preservation: "&aYour HarvesterHoe took no damage because of &dPreservation&a."
+    plant:
+      wheat: "&e&nYou planted wheat. &8&l[&c&l-$%price%&8&l]"
+      potato: "&e&nYou planted a potato. &8&l[&c&l-$%price%&8&l]"
+      carrot: "&e&nYou planted a carrot. &8&l[&c&l-$%price%&8&l]"
+      netherwart: "&e&nYou planted nether wart. &8&l[&c&l-$%price%&8&l]"
+      sugarcane: "&e&nYou planted sugar cane. &8&l[&c&l-$%price%&8&l]"
+      experience: "&b&lEXPERIENCE ENCHANT &8: &a&l+%xp% EXP"
+      preservation: "&aYour HarvesterHoe took no damage because of &dPreservation&a."
+    activate: "&6&l[HH] &e&nRight-click&r &ethe sky to change modes."
+    received: "&a&lYou received a Harvester Hoe from &2&l&n%sender%&a&l."
+    selltype: "&6&l[HH] &eYou cannot set the mode to Auto Sell. Unlock this mode at &6&nstore.hypixel.net&e."
+    planttype: "&6&l[HH] &eYou cannot set the mode to Auto Plant. Unlock this mode at &6&nstore.hypixel.net&e."
+    nomoney: "&6&l[HH] &eYou do not have enough money."
+
+sellprices:  # A list of prices that users should receive for selling crops.
+  harvesterhoe:
+    wheat: 4.00
+    potato: 1.25
+    carrot: 1.25
+    netherwart: 2.00
+    sugarcane: 1.50
+
+buyprices:  # A list of prices that users should spend when planting crops.
+  harvesterhoe:
+    wheat: 6.00
+    potato: 3.00
+    carrot: 3.00
+    netherwart: 5.00
+    sugarcane: 4.00
+
+sounds:
+  # Sounds that should play for HarvesterHoe actions.
+  # If you are using 1.8.x: https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html
+  # If you are using 1.9.x: https://helpch.at/docs/1.9/index.html?org/bukkit/Sound.html
+  # If you are using 1.10.x: https://helpch.at/docs/1.10/index.html?org/bukkit/Sound.html
+  # If you are using 1.11.x: https://helpch.at/docs/1.11/index.html?org/bukkit/Sound.html
+  # If you are using 1.12.x: https://helpch.at/docs/1.12/index.html?org/bukkit/Sound.html
+  nopermission: "VILLAGER_DEATH"
+  harvesterhoe:
+    collect: "LAVA_POP"
+    sell: "SUCCESSFUL_HIT"
+    plant: "ARROW_HIT"
+    receive: "LEVEL_UP"
+    change: "CLICK"
+    break: "ANVIL_USE"
+    experience_gain: "ORB_PICKUP"
+  #nopermission: "ENTITY_VILLAGER_DEATH"
+  #harvesterhoe:
+  #  collect: "BLOCK_LAVA_POP"
+  #  sell: "ENTITY_ARROW_HIT_PLAYER"
+  #  plant: "ENTITY_ARROW_HIT"
+  #  receive: "ENTITY_PLAYER_LEVELUP"
+  #  change: "BLOCK_WOOD_BUTTON_CLICK_ON"
+  #  break: "BLOCK_ANVIL_USE"
