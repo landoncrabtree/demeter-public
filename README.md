@@ -25,4 +25,4 @@ I am constantly looking to improve Demeter. Whether you found a bug or have a su
 
 **CONTACT**
 
-If you need to contact me regarding Demeter, you may do so through email (me@landon.pw) or Discord: Landon#1718.
+If you need help regarding Demeter, join our support Discord: https://discord.gg/3vY2gbkxrF. Support is only provided to buyers. 
