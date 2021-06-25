@@ -9,17 +9,15 @@ This GitHub page contains documentation regarding the plugin. If you are interes
 
 ------------
 
-**WIKI PAGES**
+**DOCUMENTATION**
 
-[Commands & Permissions](https://github.com/landoncrabtree/demeter-public/wiki/Commands-&-Permissions "Commands & Permissions")
-
-[Configuration](https://github.com/landoncrabtree/demeter-public/wiki/Configuration "Configuration")
+Check out the [Wiki](https://git.landon.pw/r/demeter-public/wiki "Wiki") to see everything you need to know!
 
 ------------
 
 **REPORT BUGS and SUGGEST IDEAS** 
 
-I am constantly looking to improve Demeter. Whether you found a bug or have a suggestion, I want to hear about it. Head over to the [Issues](https://github.com/landoncrabtree/demeter-public/issues "Issues") page and click "New Issue." Use this page even if it's a suggestion-- it helps me keep everything in place and easy to manage. Please provide detailed descriptions and if you are reporting a bug, steps to reproduce. 
+I am constantly looking to improve Demeter. Whether you found a bug or have a suggestion, I want to hear about it. Head over to the [Issues](https://git.landon.pw/r/demeter-public/issues "Issues") page and click "New Issue." Use this page even if it's a suggestion-- it helps me keep everything in place and easy to manage. Please provide detailed descriptions and if you are reporting a bug, steps to reproduce. 
 
 ------------
 
