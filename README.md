@@ -4,4 +4,4 @@
 
 Refer to our Wiki for documentation regarding the plugin.
 
-https://git.landon.pw/r/demeter-public/Wiki
+https://git.landon.pw/r/demeter-public/wiki/
