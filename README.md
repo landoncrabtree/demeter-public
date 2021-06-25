@@ -15,12 +15,7 @@ Check out the [Wiki](https://git.landon.pw/r/demeter-public/wiki "Wiki") to see 
 
 ------------
 
-**REPORT BUGS and SUGGEST IDEAS** 
 
-I am constantly looking to improve Demeter. Whether you found a bug or have a suggestion, I want to hear about it. Head over to the [Issues](https://git.landon.pw/r/demeter-public/issues "Issues") page and click "New Issue." Use this page even if it's a suggestion-- it helps me keep everything in place and easy to manage. Please provide detailed descriptions and if you are reporting a bug, steps to reproduce. 
+**GET SUPPORT, REPORT BUGS, & SUGGEST IDEAS**
 
-------------
-
-**CONTACT**
-
-If you need help regarding Demeter, join our support Discord: https://discord.gg/3vY2gbkxrF. Support is only provided to buyers. 
+If you need help regarding Demeter, join our support Discord: https://discord.gg/3vY2gbkxrF.
