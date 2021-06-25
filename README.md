@@ -18,4 +18,4 @@ Check out the [Wiki](https://git.landon.pw/r/demeter-public/wiki "Wiki") to see 
 
 **GET SUPPORT, REPORT BUGS, & SUGGEST IDEAS**
 
-If you need help regarding Demeter, join our support Discord: https://discord.gg/3vY2gbkxrF.
+If you need help regarding Demeter, join our [Support Discord](https://discord.gg/3vY2gbkxrF "Support Discord")
